@@ -10,17 +10,19 @@
 
     <com.angelogoves.sudokusolver.SudokuBoard
         android:id="@+id/SudokuBoard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
         custom:boardColor="#FFFFFF"
-        custom:layout_constraintEnd_toEndOf="parent"
-        custom:layout_constraintStart_toStartOf="parent"
-        custom:layout_constraintTop_toTopOf="parent"
         custom:cellFillColor="#6600DDFF"
         custom:cellsHighlightColor="#2600DDFF"
+        custom:layout_constraintEnd_toEndOf="parent"
+        custom:layout_constraintHorizontal_bias="0.0"
+        custom:layout_constraintStart_toStartOf="parent"
+        custom:layout_constraintTop_toTopOf="parent"
         custom:letterColor="#FFFFFF"
-        custom:letterColorSolve="#00FF00"
         custom:letterColorError="#FF0000"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        custom:letterColorSolve="#00FF00">
 
     </com.angelogoves.sudokusolver.SudokuBoard>
 
